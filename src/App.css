@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230901/pngtree-a-beautiful-moment-in-the-air-with-hundreds-of-white-and-image_13114423.jpg");
+  background-size: cover;
 }
 
 .App-logo {
