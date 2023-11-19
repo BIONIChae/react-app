@@ -54,4 +54,10 @@ export default function Weather() {
   } else {
     return form;
   }
+  <footer>
+        Open-source code by {""}
+        <a href="https://github.com/eugesuri/Weather-React-4" target="_blank">
+          Chae {""}
+        </a>
+      </footer>
 }
