@@ -9,5 +9,9 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     <Weather />
+    <p>
+        Open-sourced code by
+        <a href="https://github.com/BethRavelle/react-weather"> Chae</a>
+      </p>
   </StrictMode>
 );
