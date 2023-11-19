@@ -55,12 +55,3 @@ export default function Weather() {
     return form;
   }
 }
-
-return (
-    <footer>
-         Open-source code by {""}
-         <a href="https://github.com/eugesuri/Weather-React-4" target="_blank">
-         Chae {""}
-         </a>
-    </footer>
-);
