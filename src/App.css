@@ -1,7 +1,15 @@
 .App {
   text-align: center;
-  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230901/pngtree-a-beautiful-moment-in-the-air-with-hundreds-of-white-and-image_13114423.jpg");
-  background-size: cover;
+  padding: 100px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  background-color: rgba(255, 210, 235, 0.544);
+}
+
+.App h1 {
+  font-family: "Sail", cursive;
+  font-weight: 900;
+  padding-top: 50px;
 }
 
 .App-logo {
