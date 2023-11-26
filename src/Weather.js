@@ -32,8 +32,14 @@ export default function Weather() {
     <div>
     <h1>React Weather App</h1>
       <form onSubmit={handleSubmit}>
-        <input type="search" placeholder="Type a city" onChange={updateCity} />
-        <input type="submit" value="search" />
+        <div className="row">
+          <div className="col-9 p-0">
+            <input type="search" placeholder="Type a city" onChange={updateCity} className="form-control"/>
+          </div>
+          <div className="col-3 ps-0">
+            <input type="submit" value="search" className="btn btn-primary"/>
+          </div>
+        </div>
       </form>
     </div>
   );
