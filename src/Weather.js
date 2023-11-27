@@ -30,7 +30,7 @@ export default function Weather() {
 
   let form = (
     <div>
-    <h1>React Weather App</h1>
+    <h1>Weather App</h1>
       <form onSubmit={handleSubmit}>
         <div className="row">
           <div className="col-9 p-0">
