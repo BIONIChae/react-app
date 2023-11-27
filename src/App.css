@@ -28,8 +28,12 @@
   border-radius: 0%;
 }
 
-.App .form-control, .btn {
+.App .form-control {
   border-radius: 0%;
+}
+
+.App .btn:hover {
+  background: rgb(255, 145, 0);
 }
 
 .App .btn {
