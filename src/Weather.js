@@ -37,7 +37,7 @@ export default function Weather() {
             <input type="search" placeholder="Type a city" onChange={updateCity} className="form-control"/>
           </div>
           <div className="col-3 ps-0">
-            <input type="submit" value="search" className="btn btn-primary"/>
+            <input type="submit" value="search" className="btn btn-primary w-100"/>
           </div>
         </div>
       </form>
