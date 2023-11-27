@@ -29,6 +29,13 @@
   font-size: 20px;
 }
 
+.App h4 {
+  text-align: end;
+  font-size: 80px;
+  color: hotpink;
+  font-weight: 700;
+}
+
 .App ul {
   margin: 0;
   padding-top: 30px;
