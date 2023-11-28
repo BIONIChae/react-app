@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import FormatDate from "./FormatDate";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather() {
   let [city, setCity] = useState(" ");
@@ -52,12 +53,13 @@ export default function Weather() {
       <div>
         {form}
         <h2>{weather.city}</h2>
+        <img src={weather.icon} alt={weather.description} />
         <h3>{weather.description}</h3>
         <h3><FormatDate date={weather.date}/></h3>
         <h4>{Math.round(weather.temperature)}°C </h4>
         <ul>Humidity: {weather.humidity}% </ul>
-        <ul>Wind: {weather.wind}km/h </ul>
-        <img src={weather.icon} alt={weather.description} />
+        <ul>Wind: {Math.round(weather.wind)} km/h </ul>
+        <WeatherForecast/>
       </div>
     );
   } else {
