@@ -1,0 +1,27 @@
+.next-days .row-holder {
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    align-items: center;
+    justify-items: start;
+  }
+  div#forecast {
+    text-align: center;
+    padding: 0px 10px;
+  }
+  
+  .col-2.forecast-days.col-holder {
+    width: 100%;
+    text-align: center;
+  }
+  .weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.6;
+  }
+  
+  .weather-forecast-temperatures {
+    font-size: 13px;
+  }
+  
+  span.weather-forecast-temp-min {
+    opacity: 0.6;
+  }
