@@ -9,7 +9,12 @@ function App() {
         <Weather defaultCity="Montreal" />
         <footer>
           <p>
-            This project was coded by{" "}
+            <a
+              class="links"
+              href="https://github.com/BIONIChae/react-app"
+              target="_blank"
+              rel="noreferrer"
+            >Open-sourced</a>{" "} by{" "}
             <a
               class="links"
               href="https://chae-rich.netlify.app/"
@@ -17,16 +22,7 @@ function App() {
               rel="noreferrer"
             >
               Chae
-            </a>{" "}
-            and{" "}
-            <a
-              class="links"
-              href="https://github.com/BIONIChae/react-app"
-              target="_blank"
-              rel="noreferrer"
-            >
-              open-sourced on GitHub
-            </a>{" "}
+            </a>
           </p>
         </footer>
       </div>
