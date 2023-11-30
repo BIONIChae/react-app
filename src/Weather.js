@@ -18,6 +18,7 @@ export default function Weather() {
   function showTemperature(response) {
     setLoaded(true);
     setWeather({
+      coordinates: response.data.coord,
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       humidity: response.data.main.humidity,
@@ -60,6 +61,7 @@ export default function Weather() {
         <ul>Humidity: {weather.humidity}% </ul>
         <ul>Wind: {Math.round(weather.wind)} km/h </ul>
         <WeatherForecast/>
+        <WeatherForecast coordinates={weather.coordinates} />
       </div>
     );
   } else {
