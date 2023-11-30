@@ -60,7 +60,6 @@ export default function Weather() {
         <h4>{Math.round(weather.temperature)}°C </h4>
         <ul>Humidity: {weather.humidity}% </ul>
         <ul>Wind: {Math.round(weather.wind)} km/h </ul>
-        <WeatherForecast/>
         <WeatherForecast coordinates={weather.coordinates} />
       </div>
     );
