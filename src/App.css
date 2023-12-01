@@ -3,7 +3,7 @@
   margin: 60px auto;
   max-width: 600px;
   padding: 0 80px 80px 80px;
-  border: 5px solid #ffe600;
+  border: 5px solid rgba(255, 141, 246, 0.877);
   border-radius: 5px;
   background-image: url("https://wallpaperaccess.com/full/8278296.gif");
   background-size: cover;
@@ -21,19 +21,22 @@
 .App h2 {
   font-size: 30px;
   text-align: start;
-  color: hotpink;
+  color: rgb(255, 0, 85);
+  font-family: 'Hedvig Letters Serif', serif;
 }
 
 .App h3 {
   text-align: start;
   font-size: 20px;
+  font-family: 'Hedvig Letters Serif', serif;
 }
 
 .App h4 {
   text-align: end;
   font-size: 80px;
-  color: hotpink;
+  color: rgba(255, 0, 85, 0.801);
   font-weight: 700;
+  font-family: 'Hedvig Letters Serif', serif;
 }
 
 .App ul {
@@ -41,6 +44,7 @@
   padding-top: 30px;
   color: rgb(0, 0, 0);
   text-align: end;
+  font-family: 'Hedvig Letters Serif', serif;
 }
 
 .App .image {
